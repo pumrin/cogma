@@ -1,4 +1,0 @@
-numpy
-tqdm
-pypianoroll==0.5.3
-tensorflow-gpu==1.15.4
