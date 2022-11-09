@@ -198,8 +198,9 @@ def main():
                         pianoroll[trc,pos,mid] = 100
             seq = get_sequence(sess, context, pre[-512:], cur_top)
 
+        print("作曲に使用されたコード")    
+        print(chords)
         pr = []
-        print("\n"+chords)
         for i,(t,p) in enumerate(zip(tracks,programs)):
             pr.append(pypianoroll.Track(pianoroll=pianoroll[i], program=p, is_drum=(t=='Drums')))
         mt = pypianoroll.Multitrack(tracks=pr, tempo=args.tempo, beat_resolution=4)
