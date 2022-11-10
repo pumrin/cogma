@@ -2,7 +2,7 @@ import wave
 import struct
 import numpy as np
 from collections import OrderedDict
-import simpleaudio
+# import simpleaudio
 import os
 ### 各種定数
 VOLUME = 1
