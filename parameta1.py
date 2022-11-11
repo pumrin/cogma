@@ -8,9 +8,9 @@ def yes_no_input():
             return False
 
 print("実行したい処理を選んで、番号を入力してください")
-print("1.コード進行を試し聞きしたい")
+# print("1.コード進行を試し聞きしたい")
 # print("2.コード進行を推定したい")
-print("2.楽曲を生成したい")
+print("1.楽曲を生成したい")
 input_number = input("実行したい処理の番号を入力してください：")
 number = int(input_number)
 
